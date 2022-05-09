@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="13" passed="13">
+  <reporter-output>
+  </reporter-output>
+  <suite name="testsuite" duration-ms="193896" started-at="2022-05-09T15:22:41 BST" finished-at="2022-05-09T15:25:55 BST">
+    <groups>
+      <group name="regression">
+        <method signature="CreateAccountPageTest.verifyThatUserShouldCreateAccountSuccessfully()[pri:0, instance:com.automation.testsuite.CreateAccountPageTest@1d371b2d]" name="verifyThatUserShouldCreateAccountSuccessfully" class="com.automation.testsuite.CreateAccountPageTest"/>
+        <method signature="SignInPageTest.userShouldNavigateToSignInPageSuccessFully()[pri:0, instance:com.automation.testsuite.SignInPageTest@646007f4]" name="userShouldNavigateToSignInPageSuccessFully" class="com.automation.testsuite.SignInPageTest"/>
+        <method signature="SignInPageTest.verifyThatUserShouldLogInSuccessFullyWithValidCredentials()[pri:0, instance:com.automation.testsuite.SignInPageTest@646007f4]" name="verifyThatUserShouldLogInSuccessFullyWithValidCredentials" class="com.automation.testsuite.SignInPageTest"/>
+        <method signature="SignInPageTest.verifyThatUserShouldLogOutSuccessFully()[pri:0, instance:com.automation.testsuite.SignInPageTest@646007f4]" name="verifyThatUserShouldLogOutSuccessFully" class="com.automation.testsuite.SignInPageTest"/>
+        <method signature="SignInPageTest.verifyTheErrorMessageWithInValidCredentials(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.automation.testsuite.SignInPageTest@646007f4]" name="verifyTheErrorMessageWithInValidCredentials" class="com.automation.testsuite.SignInPageTest"/>
+        <method signature="WomenCategoryPageTest.verifyUserShouldAddProductToTheCartSuccessfully(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.automation.testsuite.WomenCategoryPageTest@78186a70]" name="verifyUserShouldAddProductToTheCartSuccessfully" class="com.automation.testsuite.WomenCategoryPageTest"/>
+        <method signature="WomenCategoryPageTest.verifyUserShouldNavigateToWomenCategoryPageSuccessfully()[pri:0, instance:com.automation.testsuite.WomenCategoryPageTest@78186a70]" name="verifyUserShouldNavigateToWomenCategoryPageSuccessfully" class="com.automation.testsuite.WomenCategoryPageTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="CreateAccountPageTest.verifyThatUserShouldCreateAccountSuccessfully()[pri:0, instance:com.automation.testsuite.CreateAccountPageTest@1d371b2d]" name="verifyThatUserShouldCreateAccountSuccessfully" class="com.automation.testsuite.CreateAccountPageTest"/>
+        <method signature="SignInPageTest.userShouldNavigateToSignInPageSuccessFully()[pri:0, instance:com.automation.testsuite.SignInPageTest@646007f4]" name="userShouldNavigateToSignInPageSuccessFully" class="com.automation.testsuite.SignInPageTest"/>
+        <method signature="SignInPageTest.verifyTheErrorMessageWithInValidCredentials(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.automation.testsuite.SignInPageTest@646007f4]" name="verifyTheErrorMessageWithInValidCredentials" class="com.automation.testsuite.SignInPageTest"/>
+        <method signature="WomenCategoryPageTest.verifyUserShouldAddProductToTheCartSuccessfully(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.automation.testsuite.WomenCategoryPageTest@78186a70]" name="verifyUserShouldAddProductToTheCartSuccessfully" class="com.automation.testsuite.WomenCategoryPageTest"/>
+        <method signature="WomenCategoryPageTest.verifyUserShouldNavigateToWomenCategoryPageSuccessfully()[pri:0, instance:com.automation.testsuite.WomenCategoryPageTest@78186a70]" name="verifyUserShouldNavigateToWomenCategoryPageSuccessfully" class="com.automation.testsuite.WomenCategoryPageTest"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="CreateAccountPageTest.verifyThatUserShouldCreateAccountSuccessfully()[pri:0, instance:com.automation.testsuite.CreateAccountPageTest@1d371b2d]" name="verifyThatUserShouldCreateAccountSuccessfully" class="com.automation.testsuite.CreateAccountPageTest"/>
+        <method signature="SignInPageTest.userShouldNavigateToSignInPageSuccessFully()[pri:0, instance:com.automation.testsuite.SignInPageTest@646007f4]" name="userShouldNavigateToSignInPageSuccessFully" class="com.automation.testsuite.SignInPageTest"/>
+        <method signature="WomenCategoryPageTest.verifyUserShouldNavigateToWomenCategoryPageSuccessfully()[pri:0, instance:com.automation.testsuite.WomenCategoryPageTest@78186a70]" name="verifyUserShouldNavigateToWomenCategoryPageSuccessfully" class="com.automation.testsuite.WomenCategoryPageTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="All Tests" duration-ms="193896" started-at="2022-05-09T15:22:41 BST" finished-at="2022-05-09T15:25:55 BST">
+      <class name="com.automation.testsuite.WomenCategoryPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.automation.testsuite.WomenCategoryPageTest@78186a70]" name="setUp" is-config="true" duration-ms="7548" started-at="2022-05-09T15:24:09 BST" finished-at="2022-05-09T15:24:17 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.automation.testsuite.WomenCategoryPageTest@78186a70]" name="inIt" is-config="true" duration-ms="9" started-at="2022-05-09T15:24:17 BST" finished-at="2022-05-09T15:24:17 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="verifyUserShouldAddProductToTheCartSuccessfully(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.automation.testsuite.WomenCategoryPageTest@78186a70]" name="verifyUserShouldAddProductToTheCartSuccessfully" duration-ms="14698" started-at="2022-05-09T15:24:17 BST" data-provider="cart" finished-at="2022-05-09T15:24:31 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Blouse]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[M]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[White]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserShouldAddProductToTheCartSuccessfully -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.automation.testsuite.WomenCategoryPageTest@78186a70]" name="tearDown" is-config="true" duration-ms="774" started-at="2022-05-09T15:24:31 BST" finished-at="2022-05-09T15:24:32 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.automation.testsuite.WomenCategoryPageTest@78186a70]" name="setUp" is-config="true" duration-ms="8405" started-at="2022-05-09T15:24:32 BST" finished-at="2022-05-09T15:24:41 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.automation.testsuite.WomenCategoryPageTest@78186a70]" name="inIt" is-config="true" duration-ms="4" started-at="2022-05-09T15:24:41 BST" finished-at="2022-05-09T15:24:41 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="verifyUserShouldAddProductToTheCartSuccessfully(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.automation.testsuite.WomenCategoryPageTest@78186a70]" name="verifyUserShouldAddProductToTheCartSuccessfully" duration-ms="10896" started-at="2022-05-09T15:24:41 BST" data-provider="cart" finished-at="2022-05-09T15:24:51 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Printed Dress]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[L]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Orange]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserShouldAddProductToTheCartSuccessfully -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.automation.testsuite.WomenCategoryPageTest@78186a70]" name="tearDown" is-config="true" duration-ms="777" started-at="2022-05-09T15:24:51 BST" finished-at="2022-05-09T15:24:52 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.automation.testsuite.WomenCategoryPageTest@78186a70]" name="setUp" is-config="true" duration-ms="7555" started-at="2022-05-09T15:24:52 BST" finished-at="2022-05-09T15:25:00 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.automation.testsuite.WomenCategoryPageTest@78186a70]" name="inIt" is-config="true" duration-ms="4" started-at="2022-05-09T15:25:00 BST" finished-at="2022-05-09T15:25:00 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="verifyUserShouldAddProductToTheCartSuccessfully(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.automation.testsuite.WomenCategoryPageTest@78186a70]" name="verifyUserShouldAddProductToTheCartSuccessfully" duration-ms="15246" started-at="2022-05-09T15:25:00 BST" data-provider="cart" finished-at="2022-05-09T15:25:15 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Printed Chiffon Dress]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[S]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Green]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserShouldAddProductToTheCartSuccessfully -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.automation.testsuite.WomenCategoryPageTest@78186a70]" name="tearDown" is-config="true" duration-ms="746" started-at="2022-05-09T15:25:15 BST" finished-at="2022-05-09T15:25:16 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.automation.testsuite.WomenCategoryPageTest@78186a70]" name="setUp" is-config="true" duration-ms="7411" started-at="2022-05-09T15:25:16 BST" finished-at="2022-05-09T15:25:23 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.automation.testsuite.WomenCategoryPageTest@78186a70]" name="inIt" is-config="true" duration-ms="6" started-at="2022-05-09T15:25:23 BST" finished-at="2022-05-09T15:25:23 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="verifyUserShouldAddProductToTheCartSuccessfully(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.automation.testsuite.WomenCategoryPageTest@78186a70]" name="verifyUserShouldAddProductToTheCartSuccessfully" duration-ms="18520" started-at="2022-05-09T15:25:23 BST" data-provider="cart" finished-at="2022-05-09T15:25:42 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Printed Summer Dress with Price $28.98]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[M]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Blue]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserShouldAddProductToTheCartSuccessfully -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.automation.testsuite.WomenCategoryPageTest@78186a70]" name="tearDown" is-config="true" duration-ms="816" started-at="2022-05-09T15:25:42 BST" finished-at="2022-05-09T15:25:42 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.automation.testsuite.WomenCategoryPageTest@78186a70]" name="setUp" is-config="true" duration-ms="5392" started-at="2022-05-09T15:25:42 BST" finished-at="2022-05-09T15:25:48 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.automation.testsuite.WomenCategoryPageTest@78186a70]" name="inIt" is-config="true" duration-ms="3" started-at="2022-05-09T15:25:48 BST" finished-at="2022-05-09T15:25:48 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="verifyUserShouldNavigateToWomenCategoryPageSuccessfully()[pri:0, instance:com.automation.testsuite.WomenCategoryPageTest@78186a70]" name="verifyUserShouldNavigateToWomenCategoryPageSuccessfully" duration-ms="6175" started-at="2022-05-09T15:25:48 BST" finished-at="2022-05-09T15:25:54 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserShouldNavigateToWomenCategoryPageSuccessfully -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.automation.testsuite.WomenCategoryPageTest@78186a70]" name="tearDown" is-config="true" duration-ms="764" started-at="2022-05-09T15:25:54 BST" finished-at="2022-05-09T15:25:55 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automation.testsuite.WomenCategoryPageTest -->
+      <class name="com.automation.testsuite.SignInPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.automation.testsuite.SignInPageTest@646007f4]" name="setUp" is-config="true" duration-ms="4394" started-at="2022-05-09T15:22:57 BST" finished-at="2022-05-09T15:23:02 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.automation.testsuite.SignInPageTest@646007f4]" name="inIt" is-config="true" duration-ms="6" started-at="2022-05-09T15:23:02 BST" finished-at="2022-05-09T15:23:02 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="userShouldNavigateToSignInPageSuccessFully()[pri:0, instance:com.automation.testsuite.SignInPageTest@646007f4]" name="userShouldNavigateToSignInPageSuccessFully" duration-ms="1963" started-at="2022-05-09T15:23:02 BST" finished-at="2022-05-09T15:23:04 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userShouldNavigateToSignInPageSuccessFully -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.automation.testsuite.SignInPageTest@646007f4]" name="tearDown" is-config="true" duration-ms="758" started-at="2022-05-09T15:23:04 BST" finished-at="2022-05-09T15:23:05 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.automation.testsuite.SignInPageTest@646007f4]" name="setUp" is-config="true" duration-ms="4775" started-at="2022-05-09T15:23:05 BST" finished-at="2022-05-09T15:23:09 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.automation.testsuite.SignInPageTest@646007f4]" name="inIt" is-config="true" duration-ms="5" started-at="2022-05-09T15:23:09 BST" finished-at="2022-05-09T15:23:09 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="verifyThatUserShouldLogInSuccessFullyWithValidCredentials()[pri:0, instance:com.automation.testsuite.SignInPageTest@646007f4]" name="verifyThatUserShouldLogInSuccessFullyWithValidCredentials" duration-ms="4990" started-at="2022-05-09T15:23:09 BST" finished-at="2022-05-09T15:23:14 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyThatUserShouldLogInSuccessFullyWithValidCredentials -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.automation.testsuite.SignInPageTest@646007f4]" name="tearDown" is-config="true" duration-ms="742" started-at="2022-05-09T15:23:14 BST" finished-at="2022-05-09T15:23:15 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.automation.testsuite.SignInPageTest@646007f4]" name="setUp" is-config="true" duration-ms="6665" started-at="2022-05-09T15:23:15 BST" finished-at="2022-05-09T15:23:22 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.automation.testsuite.SignInPageTest@646007f4]" name="inIt" is-config="true" duration-ms="3" started-at="2022-05-09T15:23:22 BST" finished-at="2022-05-09T15:23:22 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="verifyThatUserShouldLogOutSuccessFully()[pri:0, instance:com.automation.testsuite.SignInPageTest@646007f4]" name="verifyThatUserShouldLogOutSuccessFully" duration-ms="8281" started-at="2022-05-09T15:23:22 BST" finished-at="2022-05-09T15:23:30 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyThatUserShouldLogOutSuccessFully -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.automation.testsuite.SignInPageTest@646007f4]" name="tearDown" is-config="true" duration-ms="772" started-at="2022-05-09T15:23:30 BST" finished-at="2022-05-09T15:23:31 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.automation.testsuite.SignInPageTest@646007f4]" name="setUp" is-config="true" duration-ms="4412" started-at="2022-05-09T15:23:31 BST" finished-at="2022-05-09T15:23:35 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.automation.testsuite.SignInPageTest@646007f4]" name="inIt" is-config="true" duration-ms="5" started-at="2022-05-09T15:23:35 BST" finished-at="2022-05-09T15:23:35 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="verifyTheErrorMessageWithInValidCredentials(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.automation.testsuite.SignInPageTest@646007f4]" name="verifyTheErrorMessageWithInValidCredentials" duration-ms="4187" started-at="2022-05-09T15:23:35 BST" data-provider="invalid credentials" finished-at="2022-05-09T15:23:39 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[An email address required.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheErrorMessageWithInValidCredentials -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.automation.testsuite.SignInPageTest@646007f4]" name="tearDown" is-config="true" duration-ms="750" started-at="2022-05-09T15:23:39 BST" finished-at="2022-05-09T15:23:40 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.automation.testsuite.SignInPageTest@646007f4]" name="setUp" is-config="true" duration-ms="4327" started-at="2022-05-09T15:23:40 BST" finished-at="2022-05-09T15:23:45 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.automation.testsuite.SignInPageTest@646007f4]" name="inIt" is-config="true" duration-ms="7" started-at="2022-05-09T15:23:45 BST" finished-at="2022-05-09T15:23:45 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="verifyTheErrorMessageWithInValidCredentials(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.automation.testsuite.SignInPageTest@646007f4]" name="verifyTheErrorMessageWithInValidCredentials" duration-ms="2865" started-at="2022-05-09T15:23:45 BST" data-provider="invalid credentials" finished-at="2022-05-09T15:23:47 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcd@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Password is required.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheErrorMessageWithInValidCredentials -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.automation.testsuite.SignInPageTest@646007f4]" name="tearDown" is-config="true" duration-ms="762" started-at="2022-05-09T15:23:47 BST" finished-at="2022-05-09T15:23:48 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.automation.testsuite.SignInPageTest@646007f4]" name="setUp" is-config="true" duration-ms="4776" started-at="2022-05-09T15:23:48 BST" finished-at="2022-05-09T15:23:53 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.automation.testsuite.SignInPageTest@646007f4]" name="inIt" is-config="true" duration-ms="4" started-at="2022-05-09T15:23:53 BST" finished-at="2022-05-09T15:23:53 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="verifyTheErrorMessageWithInValidCredentials(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.automation.testsuite.SignInPageTest@646007f4]" name="verifyTheErrorMessageWithInValidCredentials" duration-ms="4850" started-at="2022-05-09T15:23:53 BST" data-provider="invalid credentials" finished-at="2022-05-09T15:23:58 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[adfdfgfg]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid email address.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheErrorMessageWithInValidCredentials -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.automation.testsuite.SignInPageTest@646007f4]" name="tearDown" is-config="true" duration-ms="732" started-at="2022-05-09T15:23:58 BST" finished-at="2022-05-09T15:23:59 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.automation.testsuite.SignInPageTest@646007f4]" name="setUp" is-config="true" duration-ms="4358" started-at="2022-05-09T15:23:59 BST" finished-at="2022-05-09T15:24:03 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.automation.testsuite.SignInPageTest@646007f4]" name="inIt" is-config="true" duration-ms="7" started-at="2022-05-09T15:24:03 BST" finished-at="2022-05-09T15:24:03 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="verifyTheErrorMessageWithInValidCredentials(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.automation.testsuite.SignInPageTest@646007f4]" name="verifyTheErrorMessageWithInValidCredentials" duration-ms="5376" started-at="2022-05-09T15:24:03 BST" data-provider="invalid credentials" finished-at="2022-05-09T15:24:08 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcd@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Authentication failed.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheErrorMessageWithInValidCredentials -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.automation.testsuite.SignInPageTest@646007f4]" name="tearDown" is-config="true" duration-ms="784" started-at="2022-05-09T15:24:08 BST" finished-at="2022-05-09T15:24:09 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automation.testsuite.SignInPageTest -->
+      <class name="com.automation.testsuite.CreateAccountPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.automation.testsuite.CreateAccountPageTest@1d371b2d]" name="setUp" is-config="true" duration-ms="5840" started-at="2022-05-09T15:22:41 BST" finished-at="2022-05-09T15:22:47 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.automation.testsuite.CreateAccountPageTest@1d371b2d]" name="inIt" is-config="true" duration-ms="39" started-at="2022-05-09T15:22:47 BST" finished-at="2022-05-09T15:22:47 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="verifyThatUserShouldCreateAccountSuccessfully()[pri:0, instance:com.automation.testsuite.CreateAccountPageTest@1d371b2d]" name="verifyThatUserShouldCreateAccountSuccessfully" duration-ms="9259" started-at="2022-05-09T15:22:47 BST" finished-at="2022-05-09T15:22:57 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyThatUserShouldCreateAccountSuccessfully -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.automation.testsuite.CreateAccountPageTest@1d371b2d]" name="tearDown" is-config="true" duration-ms="853" started-at="2022-05-09T15:22:57 BST" finished-at="2022-05-09T15:22:57 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automation.testsuite.CreateAccountPageTest -->
+    </test> <!-- All Tests -->
+  </suite> <!-- testsuite -->
+</testng-results>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="All Tests"
+           tests="5"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="65.535">
+  <properties />
+  
+  
+            <testcase name="verifyUserShouldNavigateToWomenCategoryPageSuccessfully" time="6.175" classname="com.automation.testsuite.WomenCategoryPageTest" />
+                <testcase name="verifyUserShouldAddProductToTheCartSuccessfully" time="18.520" classname="com.automation.testsuite.WomenCategoryPageTest" />
+                <testcase name="verifyUserShouldAddProductToTheCartSuccessfully" time="15.246" classname="com.automation.testsuite.WomenCategoryPageTest" />
+                <testcase name="verifyUserShouldAddProductToTheCartSuccessfully" time="14.698" classname="com.automation.testsuite.WomenCategoryPageTest" />
+                <testcase name="verifyUserShouldAddProductToTheCartSuccessfully" time="10.896" classname="com.automation.testsuite.WomenCategoryPageTest" />
+      
+</testsuite>

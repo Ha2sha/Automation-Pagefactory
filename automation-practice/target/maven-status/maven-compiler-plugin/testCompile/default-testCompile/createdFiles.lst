@@ -1,0 +1,5 @@
+com\automation\testsuite\CreateAccountPageTest.class
+com\automation\testsuite\WomenCategoryPageTest.class
+com\automation\testsuite\SignInPageTest.class
+com\automation\testbase\TestBase.class
+resources\testdata\TestData.class

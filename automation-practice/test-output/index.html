@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-testsuite">
+              <span class="suite-name border-passed">testsuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-testsuite">
+                    <span>C:\Users\HariKrishna\IdeaProjects\automation-practice\src\test\java\resources\runners\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-testsuite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-testsuite">
+                    <span>3 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-testsuite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-testsuite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-testsuite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-testsuite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">13 methods,   13 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-testsuite" class="hide-methods passed suite-testsuite"> (hide)</a> <!-- hide-methods passed suite-testsuite -->
+                      <a href="#" panel-name="suite-testsuite" class="show-methods passed suite-testsuite"> (show)</a> <!-- show-methods passed suite-testsuite -->
+                    </span>
+                    <div class="method-list-content passed suite-testsuite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testsuite" title="com.automation.testsuite.SignInPageTest" hash-for-method="userShouldNavigateToSignInPageSuccessFully">userShouldNavigateToSignInPageSuccessFully</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testsuite" title="com.automation.testsuite.CreateAccountPageTest" hash-for-method="verifyThatUserShouldCreateAccountSuccessfully">verifyThatUserShouldCreateAccountSuccessfully</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testsuite" title="com.automation.testsuite.SignInPageTest" hash-for-method="verifyThatUserShouldLogInSuccessFullyWithValidCredentials">verifyThatUserShouldLogInSuccessFullyWithValidCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testsuite" title="com.automation.testsuite.SignInPageTest" hash-for-method="verifyThatUserShouldLogOutSuccessFully">verifyThatUserShouldLogOutSuccessFully</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testsuite" title="com.automation.testsuite.SignInPageTest" hash-for-method="verifyTheErrorMessageWithInValidCredentials(adfdfgfg, 123456, Invalid email address.)">verifyTheErrorMessageWithInValidCredentials(adfdfgfg, 123456, Invalid email address.)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testsuite" title="com.automation.testsuite.SignInPageTest" hash-for-method="verifyTheErrorMessageWithInValidCredentials(, 123456, An email address required.)">verifyTheErrorMessageWithInValidCredentials(, 123456, An email address required.)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testsuite" title="com.automation.testsuite.SignInPageTest" hash-for-method="verifyTheErrorMessageWithInValidCredentials(abcd@gmail.com, 123456, Authentication failed.)">verifyTheErrorMessageWithInValidCredentials(abcd@gmail.com, 123456, Authentication failed.)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testsuite" title="com.automation.testsuite.SignInPageTest" hash-for-method="verifyTheErrorMessageWithInValidCredentials(abcd@gmail.com, , Password is required.)">verifyTheErrorMessageWithInValidCredentials(abcd@gmail.com, , Password is required.)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testsuite" title="com.automation.testsuite.WomenCategoryPageTest" hash-for-method="verifyUserShouldAddProductToTheCartSuccessfully(Printed Summer Dress with Price $28.98, 2, M, Blue)">verifyUserShouldAddProductToTheCartSuccessfully(Printed Summer Dress with Price $28.98, 2, M, Blue)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testsuite" title="com.automation.testsuite.WomenCategoryPageTest" hash-for-method="verifyUserShouldAddProductToTheCartSuccessfully(Printed Chiffon Dress, 4, S, Green)">verifyUserShouldAddProductToTheCartSuccessfully(Printed Chiffon Dress, 4, S, Green)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testsuite" title="com.automation.testsuite.WomenCategoryPageTest" hash-for-method="verifyUserShouldAddProductToTheCartSuccessfully(Blouse, 2, M, White)">verifyUserShouldAddProductToTheCartSuccessfully(Blouse, 2, M, White)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testsuite" title="com.automation.testsuite.WomenCategoryPageTest" hash-for-method="verifyUserShouldAddProductToTheCartSuccessfully(Printed Dress, 3, L, Orange)">verifyUserShouldAddProductToTheCartSuccessfully(Printed Dress, 3, L, Orange)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testsuite" title="com.automation.testsuite.WomenCategoryPageTest" hash-for-method="verifyUserShouldNavigateToWomenCategoryPageSuccessfully">verifyUserShouldNavigateToWomenCategoryPageSuccessfully</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-testsuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-testsuite" class="panel testsuite">
+          <div class="suite-testsuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.automation.testsuite.CreateAccountPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyThatUserShouldCreateAccountSuccessfully">
+                  </a> <!-- verifyThatUserShouldCreateAccountSuccessfully -->
+                  <span class="method-name">verifyThatUserShouldCreateAccountSuccessfully</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testsuite-class-passed -->
+          <div class="suite-testsuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.automation.testsuite.WomenCategoryPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyUserShouldAddProductToTheCartSuccessfully(Printed Summer Dress with Price $28.98, 2, M, Blue)">
+                  </a> <!-- verifyUserShouldAddProductToTheCartSuccessfully(Printed Summer Dress with Price $28.98, 2, M, Blue) -->
+                  <span class="method-name">verifyUserShouldAddProductToTheCartSuccessfully</span>
+                  <span class="parameters">(Printed Summer Dress with Price $28.98, 2, M, Blue)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyUserShouldAddProductToTheCartSuccessfully(Printed Chiffon Dress, 4, S, Green)">
+                  </a> <!-- verifyUserShouldAddProductToTheCartSuccessfully(Printed Chiffon Dress, 4, S, Green) -->
+                  <span class="method-name">verifyUserShouldAddProductToTheCartSuccessfully</span>
+                  <span class="parameters">(Printed Chiffon Dress, 4, S, Green)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyUserShouldAddProductToTheCartSuccessfully(Blouse, 2, M, White)">
+                  </a> <!-- verifyUserShouldAddProductToTheCartSuccessfully(Blouse, 2, M, White) -->
+                  <span class="method-name">verifyUserShouldAddProductToTheCartSuccessfully</span>
+                  <span class="parameters">(Blouse, 2, M, White)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyUserShouldAddProductToTheCartSuccessfully(Printed Dress, 3, L, Orange)">
+                  </a> <!-- verifyUserShouldAddProductToTheCartSuccessfully(Printed Dress, 3, L, Orange) -->
+                  <span class="method-name">verifyUserShouldAddProductToTheCartSuccessfully</span>
+                  <span class="parameters">(Printed Dress, 3, L, Orange)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyUserShouldNavigateToWomenCategoryPageSuccessfully">
+                  </a> <!-- verifyUserShouldNavigateToWomenCategoryPageSuccessfully -->
+                  <span class="method-name">verifyUserShouldNavigateToWomenCategoryPageSuccessfully</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testsuite-class-passed -->
+          <div class="suite-testsuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.automation.testsuite.SignInPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="userShouldNavigateToSignInPageSuccessFully">
+                  </a> <!-- userShouldNavigateToSignInPageSuccessFully -->
+                  <span class="method-name">userShouldNavigateToSignInPageSuccessFully</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyThatUserShouldLogInSuccessFullyWithValidCredentials">
+                  </a> <!-- verifyThatUserShouldLogInSuccessFullyWithValidCredentials -->
+                  <span class="method-name">verifyThatUserShouldLogInSuccessFullyWithValidCredentials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyThatUserShouldLogOutSuccessFully">
+                  </a> <!-- verifyThatUserShouldLogOutSuccessFully -->
+                  <span class="method-name">verifyThatUserShouldLogOutSuccessFully</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTheErrorMessageWithInValidCredentials(adfdfgfg, 123456, Invalid email address.)">
+                  </a> <!-- verifyTheErrorMessageWithInValidCredentials(adfdfgfg, 123456, Invalid email address.) -->
+                  <span class="method-name">verifyTheErrorMessageWithInValidCredentials</span>
+                  <span class="parameters">(adfdfgfg, 123456, Invalid email address.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTheErrorMessageWithInValidCredentials(, 123456, An email address required.)">
+                  </a> <!-- verifyTheErrorMessageWithInValidCredentials(, 123456, An email address required.) -->
+                  <span class="method-name">verifyTheErrorMessageWithInValidCredentials</span>
+                  <span class="parameters">(, 123456, An email address required.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTheErrorMessageWithInValidCredentials(abcd@gmail.com, 123456, Authentication failed.)">
+                  </a> <!-- verifyTheErrorMessageWithInValidCredentials(abcd@gmail.com, 123456, Authentication failed.) -->
+                  <span class="method-name">verifyTheErrorMessageWithInValidCredentials</span>
+                  <span class="parameters">(abcd@gmail.com, 123456, Authentication failed.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTheErrorMessageWithInValidCredentials(abcd@gmail.com, , Password is required.)">
+                  </a> <!-- verifyTheErrorMessageWithInValidCredentials(abcd@gmail.com, , Password is required.) -->
+                  <span class="method-name">verifyTheErrorMessageWithInValidCredentials</span>
+                  <span class="parameters">(abcd@gmail.com, , Password is required.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testsuite-class-passed -->
+        </div> <!-- panel testsuite -->
+        <div panel-name="test-xml-testsuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\HariKrishna\IdeaProjects\automation-practice\src\test\java\resources\runners\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;testsuite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.automation.customlisteners.CustomListeners&quot;/&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.HTMLReporter&quot;/&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.JUnitXMLReporter&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;All Tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.automation.testsuite.CreateAccountPageTest&quot;/&gt;
+      &lt;class name=&quot;com.automation.testsuite.SignInPageTest&quot;/&gt;
+      &lt;class name=&quot;com.automation.testsuite.WomenCategoryPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- All Tests --&gt;
+&lt;/suite&gt; &lt;!-- testsuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-testsuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for testsuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">All Tests (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-testsuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for testsuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">regression</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">userShouldNavigateToSignInPageSuccessFully</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyThatUserShouldCreateAccountSuccessfully</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyThatUserShouldLogInSuccessFullyWithValidCredentials</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyThatUserShouldLogOutSuccessFully</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyTheErrorMessageWithInValidCredentials</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyUserShouldAddProductToTheCartSuccessfully</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyUserShouldNavigateToWomenCategoryPageSuccessfully</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">sanity</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">userShouldNavigateToSignInPageSuccessFully</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyThatUserShouldCreateAccountSuccessfully</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyUserShouldNavigateToWomenCategoryPageSuccessfully</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">smoke</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">userShouldNavigateToSignInPageSuccessFully</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyThatUserShouldCreateAccountSuccessfully</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyTheErrorMessageWithInValidCredentials</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyUserShouldAddProductToTheCartSuccessfully</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyUserShouldNavigateToWomenCategoryPageSuccessfully</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-testsuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for testsuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_testsuite');
+function tableData_testsuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(13);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifyUserShouldAddProductToTheCartSuccessfully')
+data.setCell(0, 2, 'com.automation.testsuite.WomenCategoryPageTest')
+data.setCell(0, 3, 18520);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyUserShouldAddProductToTheCartSuccessfully')
+data.setCell(1, 2, 'com.automation.testsuite.WomenCategoryPageTest')
+data.setCell(1, 3, 15246);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyUserShouldAddProductToTheCartSuccessfully')
+data.setCell(2, 2, 'com.automation.testsuite.WomenCategoryPageTest')
+data.setCell(2, 3, 14698);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyUserShouldAddProductToTheCartSuccessfully')
+data.setCell(3, 2, 'com.automation.testsuite.WomenCategoryPageTest')
+data.setCell(3, 3, 10896);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyThatUserShouldCreateAccountSuccessfully')
+data.setCell(4, 2, 'com.automation.testsuite.CreateAccountPageTest')
+data.setCell(4, 3, 9259);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyThatUserShouldLogOutSuccessFully')
+data.setCell(5, 2, 'com.automation.testsuite.SignInPageTest')
+data.setCell(5, 3, 8281);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyUserShouldNavigateToWomenCategoryPageSuccessfully')
+data.setCell(6, 2, 'com.automation.testsuite.WomenCategoryPageTest')
+data.setCell(6, 3, 6175);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyTheErrorMessageWithInValidCredentials')
+data.setCell(7, 2, 'com.automation.testsuite.SignInPageTest')
+data.setCell(7, 3, 5376);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyThatUserShouldLogInSuccessFullyWithValidCredentials')
+data.setCell(8, 2, 'com.automation.testsuite.SignInPageTest')
+data.setCell(8, 3, 4990);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyTheErrorMessageWithInValidCredentials')
+data.setCell(9, 2, 'com.automation.testsuite.SignInPageTest')
+data.setCell(9, 3, 4850);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifyTheErrorMessageWithInValidCredentials')
+data.setCell(10, 2, 'com.automation.testsuite.SignInPageTest')
+data.setCell(10, 3, 4187);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verifyTheErrorMessageWithInValidCredentials')
+data.setCell(11, 2, 'com.automation.testsuite.SignInPageTest')
+data.setCell(11, 3, 2865);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'userShouldNavigateToSignInPageSuccessFully')
+data.setCell(12, 2, 'com.automation.testsuite.SignInPageTest')
+data.setCell(12, 3, 1963);
+window.suiteTableData['testsuite']= { tableData: data, tableDiv: 'times-div-testsuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-testsuite">
+              </div> <!-- times-div-testsuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-testsuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for testsuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-testsuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-testsuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.testsuite.CreateAccountPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">inIt</span>
+                <span class="method-start">5843 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyThatUserShouldCreateAccountSuccessfully</span>
+                <span class="method-start">5882 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">15144 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.testsuite.SignInPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">16004 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">inIt</span>
+                <span class="method-start">20398 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">userShouldNavigateToSignInPageSuccessFully</span>
+                <span class="method-start">20405 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">22368 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">23128 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">inIt</span>
+                <span class="method-start">27903 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyThatUserShouldLogInSuccessFullyWithValidCredentials</span>
+                <span class="method-start">27908 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">32900 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">33643 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">inIt</span>
+                <span class="method-start">40308 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyThatUserShouldLogOutSuccessFully</span>
+                <span class="method-start">40311 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">48592 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">49383 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">inIt</span>
+                <span class="method-start">53795 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyTheErrorMessageWithInValidCredentials(, 123456, An email address required.)</span>
+                <span class="method-start">53800 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">57988 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">58740 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">inIt</span>
+                <span class="method-start">63068 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyTheErrorMessageWithInValidCredentials(abcd@gmail.com, , Password is required.)</span>
+                <span class="method-start">63076 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">65941 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">66705 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">inIt</span>
+                <span class="method-start">71482 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyTheErrorMessageWithInValidCredentials(adfdfgfg, 123456, Invalid email address.)</span>
+                <span class="method-start">71486 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">76337 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">77070 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">inIt</span>
+                <span class="method-start">81428 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyTheErrorMessageWithInValidCredentials(abcd@gmail.com, 123456, Authentication failed.)</span>
+                <span class="method-start">81435 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">86812 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.testsuite.WomenCategoryPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">87599 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">inIt</span>
+                <span class="method-start">95147 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyUserShouldAddProductToTheCartSuccessfully(Blouse, 2, M, White)</span>
+                <span class="method-start">95157 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">109856 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">110632 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">inIt</span>
+                <span class="method-start">119037 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyUserShouldAddProductToTheCartSuccessfully(Printed Dress, 3, L, Orange)</span>
+                <span class="method-start">119041 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">129938 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">130716 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">inIt</span>
+                <span class="method-start">138272 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyUserShouldAddProductToTheCartSuccessfully(Printed Chiffon Dress, 4, S, Green)</span>
+                <span class="method-start">138276 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">153522 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">154269 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">inIt</span>
+                <span class="method-start">161680 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyUserShouldAddProductToTheCartSuccessfully(Printed Summer Dress with Price $28.98, 2, M, Blue)</span>
+                <span class="method-start">161686 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">180207 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">181024 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">inIt</span>
+                <span class="method-start">186416 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyUserShouldNavigateToWomenCategoryPageSuccessfully</span>
+                <span class="method-start">186420 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">192595 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
